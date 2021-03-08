@@ -1,0 +1,84 @@
+
+/*=======================
+// developer Info 
+========================*/
+.profile {
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+   &__content{
+       padding: 30px;
+   }
+}
+/*=======================
+// developer Info 
+========================*/
+
+.developer {
+   &__img {
+       width: 100%;
+      height: 220px;
+      object-fit: cover;
+   }
+   &__name {
+      color: tomato;
+      margin-bottom: 5px;
+   }
+   &__designation {
+      font-weight: 500;
+   }
+}
+
+/*=======================
+// skills 
+========================*/
+
+.skills {
+   margin-bottom: 10px;
+   &__title {
+      color: #333;
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
+   &__list {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   &__item {
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 4px 12px;
+      margin-right: 4px;
+      border-radius: 6px;
+      font-weight: 500;
+   }
+}
+
+/*=======================
+// social 
+========================*/
+.social {
+   margin-bottom: 10px;
+   &__title {
+      color: #333;
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
+   &__list {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   &__item {
+      margin-right: 4px;
+   }
+   &__link {
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-weight: 500;
+      &:hover {
+         background-color: tomato;
+         color: #333;
+      }
+   }
+}

@@ -1,0 +1,16 @@
+
+
+.gallery {
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+    &__content {
+        padding: 30px 20px;
+    }
+    &__title {
+        color: tomato;
+        margin-bottom: 15px;
+    }
+    
+}
